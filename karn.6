@@ -1,0 +1,52 @@
+// Online C compiler to run C program online
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the no :");
+    scanf("%d",&number);
+    
+    if(number >0){
+        printf("the no is positive\n");
+        
+    }
+    
+    else{
+        printf("the no is negative");
+    }
+
+    }
+//code for detremining either a student is pass or fail
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the no(0-100) :");
+    scanf("%d",&number);
+    
+    if(number  >30) {
+        printf("student is pass\n");
+        
+    }
+ else{ 
+     printf("student is fail");
+ }
+ return 0;
+}       
+    //code for detremining either a student is pass or fail( with conditions)
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the no(0-100) :");
+    scanf("%d",&number);
+    
+    if(number  >30 && number <=100) {
+        printf("student is pass\n");
+    }else if(number<30 && number>=0){
+        printf("student is fail\n");
+         
+        }
+ else { 
+     printf("wrong marks");
+ }
+ return 0;
+}       
+    
